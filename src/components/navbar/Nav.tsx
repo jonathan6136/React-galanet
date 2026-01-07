@@ -35,7 +35,7 @@ export const Nav = () => {
         },
 ];
         return (
-            <ul className="text-amber-50">
+            <ul className="flex justify-center items-center gap-5 text-amber-50">
               {
                 links.map((link, index) => (
                     <Links key={index} text={link.text} href={link.href}/>

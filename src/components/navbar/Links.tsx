@@ -6,7 +6,7 @@ interface Props {
 export const Links = ({text, href} : Props) => {
     return (
        
-        <li>
+        <li className="w-30">
        <a href = {href}>{text}</a>
        </li>
        
